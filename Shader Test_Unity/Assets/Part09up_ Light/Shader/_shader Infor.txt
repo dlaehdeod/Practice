@@ -1,0 +1,14 @@
+INPUT 구조체 요소
+
+float3 viewDir         : 뷰 방향으로 Rim 라이팅 등에 사용된다.
+float4 color:COLOR  : 버텍스 컬러를 포함한다.
+float4 screenPos     : 스크린 스페이스 위치를 포함
+float3 worldPos      : 월드 공간 위치 포함
+float3 worldRefl      : 월드 반사 벡터     o.Normal 작성x
+float3 worldNormal  : 월드 노멀 벡터     o.Normal 작성x
+
+float3 worldRefl; 
+INTERNAL_DATA      : 월드 반사 벡터     o.Normal작성o
+
+float3 worldNormal;
+INTERNAL_DATA      : 월드 노멀 벡터     o.Normal작성o
